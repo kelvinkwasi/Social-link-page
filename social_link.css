@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Inter';
+}
+
+.wrapper{
+    background-color:  rgb(20, 20, 20);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* position: relative; */
+}
+
+.dashboard {
+    background-color: rgb(31, 31, 31);
+    width: 24%;
+    height:  60em;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: 30px;
+    /* position: absolute;
+    top: 18%;
+    left: 40%; */
+}
+
+.avatar {
+    margin: 0 auto;
+    background-image: url(/IMAGES/avatar-jessica.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 25%;
+    height:  8em;
+    border-radius: 20em;
+}
+
+h3, h2, p {
+    text-align: center;
+}
+
+h3 {
+    color:  white;
+    font-size:  2rem;
+    font-weight: 600;
+}
+
+h2 {
+    color: rgb(197, 248, 42);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: -1em;
+}
+
+p {
+    color:  white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2em;
+}
+
+/* ul {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    padding: 1.5em;
+    background-color:  rgb(51, 51, 51);
+    margin-bottom: 1.5em;
+    border-radius: 0.7em;
+    transition: 1s;
+} */
+
+/* .btn-wrap {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+} */
+
+div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.5em;
+    background-color: rgb(51, 51, 51);
+    margin-bottom: 1.5em;
+    border-radius: 0.7em;
+    transition: .8s;
+}
+
+div a:hover {
+    background-color: rgb(197, 248, 42);
+    color: black;
+}
+
+a:focus {
+    background-color: rgb(197, 248, 42);
+    color: black;
+}
+/* ul li:focus:before {
+    content: "";
+    width: 100%;
+    background-color: rgb(197, 248, 42);
+    height: 100px;
+    padding: 1.5em;
+} */
+
+/* ul li:hover {
+    background-color: rgb(197, 248, 42);
+} */
+
+/* ul li a:hover {
+    color: black;
+} */
+
+/* mobile design rendering */
+
+@media screen and (max-width: 700px ) {
+
+    .dashboard {
+        background-color: rgb(31, 31, 31);
+        width: 90%;
+        height:  61em;
+        margin: 0 auto;
+        border-radius: 1em;
+        padding: 30px;
+    }
+
+    .avatar {
+        margin: 0 auto;
+        background-image: url(/IMAGES/avatar-jessica.jpeg);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        width: 10em;
+        height:  9em;
+        border-radius: 20em;
+    }
+
+    p {
+        color:  white;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 2em;
+    }
+
+    h3, h2, p {
+        text-align: center;
+    }
+    
+    h3 {
+        color:  white;
+        font-size:  2rem;
+        font-weight: 600;
+    }
+}
+
+/* @media screen and (max-width: 1024px ) {
+
+    .dashboard {
+        background-color: rgb(31, 31, 31);
+        width: 80%;
+        height:  90em;
+        margin: 0 auto;
+        border-radius: 1em;
+        padding: 100px;
+    }
+    
+
+    div a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding: 1.5em;
+        background-color: rgb(51, 51, 51);
+        margin-bottom: 1.5em;
+        border-radius: 0.7em;
+    }
+
+    .avatar {
+        margin: 0 auto;
+        background-image: url(/IMAGES/avatar-jessica.jpeg);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        width: 20%;
+        height:  10em;
+        border-radius: 20em;
+    }
+
+    p {
+        color:  white;
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 2em;
+    }
+
+    h3, h2, p {
+        text-align: center;
+    }
+    
+    h3 {
+        color:  white;
+        font-size:  3rem;
+        font-weight: 600;
+    }
+    
+    h2 {
+        color: rgb(197, 248, 42);
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 0em;
+    }
+} */
