@@ -139,7 +139,54 @@ a:focus {
 
 /* mobile design rendering */
 
-@media screen and (max-width: 700px ) {
+/* @media (min-width: 800px) {
+    
+    .dashboard {
+        background-color: rgb(31, 31, 31);
+        width: 75%;
+        height:  90em;
+        margin: 0 auto;
+        border-radius: 1em;
+        padding: 40px;
+    }
+
+
+    .avatar {
+        margin: 0 auto;
+        background-image: url(/IMAGES/avatar-jessica.jpeg);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        width: 10em;
+        height:  10em;
+        border-radius: 20em;
+    }
+
+    p {
+        color:  white;
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin: 2em;
+    }
+
+    div a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding: 1.5em;
+        background-color: rgb(51, 51, 51);
+        margin-bottom: 1.5em;
+        border-radius: 0.7em;
+        transition: .8s;
+    }
+
+} */
+
+@media (max-width: 800px ) {
 
     .dashboard {
         background-color: rgb(31, 31, 31);
